@@ -1,0 +1,43 @@
+
+.head {
+    background-color: #333;
+    width: 100%;
+    background-color: bisque;
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin: 5px;
+    padding: 5px;
+    padding-left: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.head__name {
+    color: #333;
+    text-decoration: none;
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+
+.navegation {
+}
+
+.ul__navegation {
+    font-size: 20px;
+    margin-right: 70px;
+    list-style: none;
+    padding-left: 10px;
+}
+
+.li__navegation {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.a__navegation {
+    text-decoration: none;
+}
