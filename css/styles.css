@@ -8,7 +8,7 @@ body {
     min-height: 100vh;
 }
 
-/*Header*/
+/*Header___________________________________________________________________________*/
 .header {
     padding: 10px 30px;
     background-color: #232A2F;
@@ -75,7 +75,7 @@ body {
         }
 
 
-/*Main*/
+/*Main___________________________________________________________________________*/
 .main {
     background-color: #232A2F;
     display: flex;
@@ -132,7 +132,7 @@ body {
 
 .card {
     width: 1000px;
-    height: 300px;
+    height: 500px;
     background-color: white;
     padding: 10px;
     border-radius: 10px;
@@ -145,7 +145,7 @@ body {
 }
 
 .h1__card-container {
-    width: 250px;
+    width: 500px;
     height: 100px;
     background-color: turquoise;
 }
@@ -159,8 +159,12 @@ body {
     width: 150px;
     height: 150px;
 }
-
-/*Fotter*/
+/*Formulario___________________________________________________________________________*/
+.formulario {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/*Fotter___________________________________________________________________________*/
 .footer {
     padding: 20px;
     color: white;
@@ -206,5 +210,22 @@ body {
 
     100% {
         transform: rotate(360deg);
+    }
+}
+
+/*Mediaqueries*/
+@media screen and (max-width: 800px) {
+    .h1__main {
+        font-size: 40px;
+    }
+
+    .img__main-container {
+        width: 150px;
+        height: 150px;
+    }   
+
+    .img__main {
+        width: 130px;
+        height: 130px;
     }
 }
