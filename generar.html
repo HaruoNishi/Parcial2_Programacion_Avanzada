@@ -31,6 +31,44 @@
                     <h1 class="h1__card">
                         Titulo
                     </h1>
+                    <form action="" class="formulario" id="formulario">
+                        
+                        <!-- Container Nombre-->
+                        <div class="formulario__container" id="conatiner-nombre">
+                            <label for="nombre" class="label__formulario">Nombre</label>
+                            <div class="formulario__contauner-input">
+                                <input type="text" class="input__formulario" name="nombre" id="nombre" placeholder="Juan DaviD Corrales Linares">
+                                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                            </div>
+                        </div>
+                        <p class="formulario__input-error">
+                            
+                        </p>
+
+                        <!-- Conatiner: Telefono-->
+                        <div class="formulario__container" id="conatiner-telefono">
+                            <label for="telefono" class="label__formulario">Telefono</label>
+                            <div class="formulario__contauner-input">
+                                <input type="text" class="input__formulario" name="telefono" id="telefono" placeholder="20191578015">
+                                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                            </div>
+                        </div>
+                        <p class="formulario__input-error">
+                            El telefono sulo puede contener numeros
+                        </p>
+
+                        <!-- Conatiner: Correo-->
+                        <div class="formulario__container" id="conatiner-correo">
+                            <label for="correo" class="label__formulario">Correo</label>
+                            <div class="formulario__contauner-input">
+                                <input type="text" class="input__formulario" name="correo" id="correo" placeholder="correo@correo.co">
+                                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                            </div>
+                        </div>
+                        <p class="formulario__input-error">
+                            El correo solo piede contener letras, numeros, puntos y guion bajo
+                        </p>
+                    </form>
                 </div>
                 <div class="img__card-conatiner">
                     <img src="" alt="qr" class="img__card">
@@ -58,5 +96,6 @@
             </div>
         </footer>
     </div>
+    <script src="https://kit.fontawesome.com/554f011c4b.js" crossorigin="anonymous"></script>
 </body>
 </html>
